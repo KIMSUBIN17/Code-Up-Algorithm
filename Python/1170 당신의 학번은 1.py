@@ -1,0 +1,5 @@
+﻿a,b,c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+print('%d%d%02d' % (a, b, c))
