@@ -7,7 +7,7 @@ int main()
 
     scanf("%s", a);
     scanf("%s", b);
-
+    //strlen():문자열의 길이 알려줌
     if (strlen(a) < strlen(b))
     {
         printf("%s %s", a, b);
@@ -30,3 +30,5 @@ int main()
 
     return 0;
 }
+//strcmp():두 개의 문자열 비교
+//정확하게 일치 or 다르다면 어떤 문자열이 사전적 순서로 앞에 있는지 알려줌
